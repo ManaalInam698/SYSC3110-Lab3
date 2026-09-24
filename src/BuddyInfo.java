@@ -1,13 +1,13 @@
 public class BuddyInfo {
     private String name;
     private String address;
-    private int phoneNumber;
+    private String phoneNumber;
 
     public BuddyInfo(){
-        this("N/a", "123 hogwarts", 613123123);
+        this("N/a", "123 hogwarts", "613123123");
     }
 
-    public BuddyInfo(String name, String address, int phoneNumber){
+    public BuddyInfo(String name, String address, String phoneNumber){
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
@@ -20,7 +20,7 @@ public class BuddyInfo {
 
     public static void main(String[] args) {
 
-        BuddyInfo k1 = new BuddyInfo("Kounoz", "446 hogwarts", 613123123);
+        BuddyInfo k1 = new BuddyInfo("Kounoz", "446 hogwarts", "613123123");
         System.out.println("Hello " + k1.getName());
 
         System.out.println("Hello World");
