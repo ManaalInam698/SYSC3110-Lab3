@@ -22,4 +22,8 @@ public class AddressBook {
 
     }
 
+    public int getBuddyCount() {
+        return buddies.size();
+    }
+
 }
